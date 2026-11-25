@@ -1,0 +1,9 @@
+policy_id,category,title,text
+POL-RESCHEDULE-01,RESCHEDULE,Rescheduling a Delivery,"A delivery can be rescheduled while the parcel is pending pickup or in transit. It cannot be rescheduled once it is out for delivery. A parcel can be rescheduled at most 2 times, and the new date must be within 7 days from today."
+POL-DELAY-01,DELIVERY,Late Delivery Compensation,"If a parcel arrives more than 3 days after its promised date, the customer can file a LATE claim for up to 300 rupees. Delays of 3 days or less are not eligible for compensation."
+POL-DAMAGED-01,CLAIMS,Damaged Parcels,"A damaged parcel must be reported within 48 hours of delivery. The customer can claim up to the declared value of the parcel. Every damage claim is reviewed by a human before payment."
+POL-LOST-01,CLAIMS,Lost Parcels,"A parcel with no scan for 7 days is treated as lost. The customer can claim up to the declared value of the parcel. Lost parcel claims are reviewed by a human before payment."
+POL-APPROVAL-01,CLAIMS,Claim Approval Limits,"Claims of 500 rupees or less are approved automatically. Claims above 500 rupees and up to 5000 rupees need a reviewer. Claims above 5000 rupees need a senior reviewer. A claim can never exceed the declared value of the parcel."
+POL-PROHIBITED-01,SHIPPING,Items We Do Not Carry,"SwiftParcel does not carry loose batteries, liquids, flammable goods or cash. Such parcels are returned to the sender."
+POL-ADDRESS-01,DELIVERY,Changing the Delivery Address,"The delivery address can be changed only before the parcel is dispatched. After dispatch the customer can reschedule the delivery but not change the address."
+POL-PRIVACY-01,SHIPPING,Customer Privacy,"Support staff never share one customer's parcel details with another customer. Tracking details are shown only to the customer who owns the parcel."
