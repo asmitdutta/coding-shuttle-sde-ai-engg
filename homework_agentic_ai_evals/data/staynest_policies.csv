@@ -1,0 +1,9 @@
+policy_id,topic,title,text
+POL-CANCEL-01,CANCELLATION,Cancelling a Flexible Booking,"A flexible booking that is confirmed can be cancelled. If check-in is 3 or more days away the guest gets a full refund. If check-in is 1 or 2 days away the guest gets 50 percent of the amount paid. On the check-in day or later there is no refund."
+POL-CANCEL-02,CANCELLATION,Non-Refundable Rates,"A non-refundable booking gets no refund when the guest cancels, whatever the date. The only exception is when the hotel cancels the booking."
+POL-CANCEL-03,CANCELLATION,Stays Already Started,"A booking that is already checked in, completed or cancelled cannot be cancelled again and gets no refund."
+POL-HOTEL-01,HOTEL_CANCELLED,When the Hotel Cancels,"If the hotel cancels a booking, the guest gets a full refund of the amount paid, even on a non-refundable rate."
+POL-APPROVAL-01,APPROVAL,Who Approves a Refund,"Refunds of 5000 rupees or less are approved automatically. Refunds above 5000 and up to 25000 rupees need a reviewer. Refunds above 25000 rupees need a senior reviewer. Only active staff can approve."
+POL-TIMING-01,REFUND_TIMING,When the Money Comes Back,"An approved refund goes back to the original payment method within 5 to 7 working days."
+POL-CHECKIN-01,CHECK_IN,Check-In and Check-Out Times,"Check-in starts at 2 pm and check-out is at 11 am. Early check-in depends on the hotel and is not guaranteed."
+POL-PRIVACY-01,PRIVACY,Guest Privacy,"Support staff never share one guest's booking details with another guest. Booking details are shown only to the guest who owns the booking."
